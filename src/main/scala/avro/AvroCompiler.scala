@@ -1,7 +1,7 @@
 package avro
 
 import sbt._
-import org.apache.avro.specific.SpecificCompiler
+import org.apache.avro.compiler.specific.SpecificCompiler
 import org.apache.avro.tool.IdlTool
 import java.util.ArrayList
 
