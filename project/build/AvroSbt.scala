@@ -1,9 +1,9 @@
 import sbt._
 
 class AvroSbt(info: ProjectInfo) extends PluginProject(info) with IdeaProject {
-  val avro = "org.apache.avro" % "avro" % "1.5.0" withSources()
-  val avroCompiler = "org.apache.avro" % "avro-compiler" % "1.5.0" withSources()
-  val avroTools = "org.apache.avro" % "avro-tools" % "1.5.0" withSources()
+  val avro = "org.apache.avro" % "avro" % "1.5.1" withSources()
+  val avroCompiler = "org.apache.avro" % "avro-compiler" % "1.5.1" withSources()
+  val avroTools = "org.apache.avro" % "avro-tools" % "1.5.1" withSources()
   
 
   /**
